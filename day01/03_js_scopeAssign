@@ -1,0 +1,24 @@
+var firstName= "Ram"
+var firstName = "Rahim"
+console.log(firstName)
+firstName = "Vijaya"
+console.log(firstName)
+
+var genderFlag = "Madle"
+
+greet(genderFlag)
+//scope Restriction
+function greet(gender){
+var age=20
+var color2="Pink"
+if(gender=="Male"){
+    var color="Blue"    
+    console.log("Male gender is flagged as " +color)
+}
+else{    
+    console.log("female gender is flagged as " +color2)
+}
+console.log(color)
+console.log(age)
+}
+
